@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Post Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <div>
+        <h1 id="main">STUDENT CAMPUS PLACEMENT PREDICTION</h1>
+    <form method="post" action="/">
+        <h2 id="main">Enter your Details</h2>
+        
+        <input type="text" name="value1" placeholder="Gender M/F" required>
+        <input type="text" name="value2" placeholder="10th percentage" required>
+        <input type="text" name="value3" placeholder="10th board" required>
+        <input type="text" name="value4" placeholder="12th percentage" required>
+        <input type="text" name="value5" placeholder="12th board" required>
+        <input type="text" name="value6" placeholder="12th couarse" required>
+        <input type="text" name="value7" placeholder="Btech percentage" required>
+        <input type="text" name="value8" placeholder="Btech course" required>
+        <input type="text" name="value9" placeholder="company exam marks " required>
+        <input type="text" name="value10" placeholder="Major/minor" required>
+        <input type="text" name="value11" placeholder="Internship" required>
+     
+        <input type="submit" value="Predict">
+        
+    </form>
+    <div class="prediction">
+        <h1>THE PREDICTION IS: {{ prediction }}</h1>
+    </div>
+ 
+    
+
+ 
+ 
+   
+   
+</body>
+</html>

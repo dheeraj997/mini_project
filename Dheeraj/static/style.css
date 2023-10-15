@@ -1,0 +1,54 @@
+/* Apply styles to the body element */
+body {
+    background-image: url('https://images.unsplash.com/photo-1472173148041-00294f0814a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGFjYWRlbWlhfGVufDB8fDB8fHww&w=1000&q=80');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the form container */
+form {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Style the input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 2px 0;
+    border: 1px solid #faf3f3;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Your-Handwritten-Font', cursive; /* Use your selected handwritten font */
+    font-size: 2.5em;
+    color: #eae7e8; /* Dark brown color for the text */
+    text-shadow: 1px 1px 2px #000; /* Subtle black shadow */
+    background: linear-gradient(180deg, #f2ead5, #c4b6a9); /* Vintage gradient background */
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 10px; /* Add padding for a better visual effect */
+     /* Border for a vintage look */
+    
+}
+
+
+
